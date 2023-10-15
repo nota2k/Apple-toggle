@@ -5,122 +5,6 @@ body{
 	min-height: 100vh;
 }
 
-.toggle-container{
-	width: 200px;
-	height: 50px;
-	background-color: #cacaca;
-	border-radius: 40px;
-	outline-style: dotted;
-	outline-color: #cacaca;
-	outline-offset: -1px;
-	outline-width:3px ;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-}
-
-.toggle-band{
-	width: 100%;
-	height: 100%;
-	background-color: white;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.toggle{
-	width: 47px;
-	height: 100%;
-	background: linear-gradient(90deg, rgb(112, 112, 112) 0%, rgb(255, 255, 255) 20%, rgb(196, 196, 196) 49%, rgb(255, 255, 255) 100%); 
-	border-radius: 0px 40px 40px 0px;
-	box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
-  	pointer-events: none;	
-  	position: absolute;
-  	left: 0;
-}
-
-/*input[type="range"] { 
-    margin: auto;
-    -webkit-appearance: none;
-    position: relative;
-    overflow: hidden;
-    height: 40px;
-    width: 200px;
-    cursor: pointer;
-    border-radius: 40px;
-	outline-style: dotted;
-	outline-color: #f0f0f0;
-	outline-offset: -1px;
-	outline-width:3px ;
-}
-
-::-webkit-slider-runnable-track {
-    background: #ddd;
-}
-*/
-/*
- * 1. Set to 0 width and remove border for a slider without a thumb
- * 2. Shadow is negative the full width of the input and has a spread 
- *    of the width of the input.
- */
-/*::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 20px;
-    height: 40px;
-    background: #fff;
-    box-shadow: -200px 0 0 200px dodgerblue; 
-    border: 2px solid #999; 
-}
-
-::-moz-range-track {
-    height: 40px;
-    background: white;
-}
-
-::-moz-range-thumb {
-    width: 47px;
-	height: 100%;
-	background: linear-gradient(90deg, rgb(179, 178, 178) 0%, rgb(251, 251, 251) 20%, rgb(232, 232, 232) 50%, rgb(255, 255, 255) 100%); 
-	border-radius: 0px 40px 40px 0px;
-    box-shadow: -242px 0 0 200px #f0f0f0,1px 2px 3px rgba(0,0,0,0.1);
-    box-sizing: border-box;
-    border: none;
-}
-
-::-ms-fill-lower { 
-    background: dodgerblue;
-}
-
-::-ms-thumb { 
-    background: #fff;
-    border: 2px solid #999;
-    height: 40px;
-    width: 20px;
-    box-sizing: border-box;
-}
-
-::-ms-ticks-after { 
-    display: none; 
-}
-
-::-ms-ticks-before { 
-    display: none; 
-}
-
-::-ms-track { 
-    background: #ddd;
-    color: transparent;
-    height: 40px;
-    border: none;
-}
-
-::-ms-tooltip { 
-    display: none;
-}*/
-
 /*-- Custom thumb ----*/
 .range-slider{
     position: relative;
@@ -183,10 +67,11 @@ body{
 	transform: scaleX(1);
 	transform-origin: 100% center;
 	left: 0;
-/*	right: 0;*/
 	z-index: 1;
 }
+
  @import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100;200;300;400;500;600;700;800&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope&display=swap');
+
 label{
 	opacity: 1;
 	font-family: Manrope, sans-serif;
